@@ -1,4 +1,5 @@
-// Import express, set "app" to be the server object
+// Import .env file and express, set "app" to be the server object
+require("dotenv").config();
 let express = require("express");
 let app = express();
 
